@@ -1,5 +1,5 @@
 plugins {
-    kotlin("jvm") version "2.3.20"
+    kotlin("jvm") version "2.4.0"
     id("co.uzzu.dotenv.gradle") version "4.0.0"
     `maven-publish`
 }
@@ -22,7 +22,7 @@ repositories {
 dependencies {
     compileOnly("io.papermc.paper:paper-api:1.21.11-R0.1-SNAPSHOT")
     compileOnly("gg.aquatic:KRegistry:25.0.3")
-    compileOnly("gg.aquatic:Common:26.0.16")
+    compileOnly("gg.aquatic:Common:26.0.17")
     testImplementation(kotlin("test"))
 
     // Implementations
