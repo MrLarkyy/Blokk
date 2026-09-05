@@ -28,7 +28,7 @@ dependencies {
     // Implementations
     compileOnly("dev.lone:api-itemsadder:4.0.10")
     compileOnly("io.th0rgal:oraxen:1.212.0")
-    compileOnly("com.nexomc:nexo:1.21.0")
+    compileOnly("com.nexomc:nexo:1.28.0")
 }
 
 kotlin {
